@@ -1,0 +1,9 @@
+# python stored value in memory in optimized way. like this example same value will be stored in 
+# one address though they are initialized in different variable
+name1 = "imran"
+name2 = "sarker"
+name3 = "imran"
+
+print(id(name1))
+print(id(name2))
+print(id(name3))
